@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+    <test name="login test case">
+        <classes>
+            <class name="com.testng.withAllure.loginTest" />
+        </classes>
+    </test>
+
+    <test name="booking test case">
+        <classes>
+            <class name="com.testng.withAllure.bookingTest" />
+        </classes>
+    </test>
+
+</suite>
