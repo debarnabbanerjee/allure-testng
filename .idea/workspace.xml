@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6563b3-4e4e-454c-a266-db158c5c9569" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/withAllure/bookingTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/testng/withAllure/bookingTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testng/withAllure/utilsLibrary.java" afterPath="$PROJECT_DIR$/src/main/java/com/testng/withAllure/utilsLibrary.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/withAllure/getRequestTesting.java" afterPath="$PROJECT_DIR$/src/test/java/com/testng/withAllure/getRequestTesting.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getRequestTesting.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getRequestTesting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/testng/withAllure/getRequestTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+            <state relative-caret-position="432">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,15 +49,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utilsLibrary.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="utilsLibrary.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/testng/withAllure/utilsLibrary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="417">
+              <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,10 +87,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/testng/withAllure/apiLibrary.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/testng/withAllure/loginTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/testng/withAllure/utilsLibrary.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/testng/withAllure/bookingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/testng/withAllure/getRequestTesting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testng/withAllure/utilsLibrary.java" />
       </list>
     </option>
   </component>
@@ -493,18 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testng/withAllure/utilsLibrary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -525,10 +512,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/testng/withAllure/getRequestTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        <state relative-caret-position="432">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testng/withAllure/utilsLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
           </folding>
         </state>
       </provider>
