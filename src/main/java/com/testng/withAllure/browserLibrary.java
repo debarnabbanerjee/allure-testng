@@ -1,5 +1,6 @@
 package com.testng.withAllure;
 
+import io.qameta.allure.Attachment;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -9,6 +10,7 @@ import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
 import javax.imageio.ImageIO;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 
 public class browserLibrary {
@@ -19,6 +21,30 @@ public class browserLibrary {
         browserLibrary bs = new browserLibrary();
         bs.openChromeBrowser();
     }
+
+
+    public static byte[] convertFromFileToByte(String filePath){
+        try{
+            File file = new File(filePath);
+            //init array with file length
+            byte[] bytesArray = new byte[(int) file.length()];
+
+            FileInputStream fis = new FileInputStream(file);
+            fis.read(bytesArray); //read file into bytes[]
+            fis.close();
+
+            return bytesArray;
+        }catch (Exception e){
+            e.printStackTrace();
+            return null;
+        }
+
+    }
+    @Attachment(value = "Page Screenshot", type = "image/png")
+    public static byte[] saveScreenshot(){
+        return convertFromFileToByte(System.getProperty("user.dir") +"//FullPageScreenshot.png");
+    }
+
     public static void openChromeBrowser(){
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--headless");
