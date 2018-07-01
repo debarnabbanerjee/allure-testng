@@ -6,11 +6,11 @@ public class bookingTest {
 
     @Test(priority = 3)
     public void positiveBookingTestCase(){
-        apiLibrary.addTextToReport("Positive Booking Test Case");
+        utilsLibrary.addTextToReport("Positive Booking Test Case");
     }
 
     @Test(priority = 4)
     public void negativeBookingTestCase(){
-        apiLibrary.addTextToReport("Negative Booking Test Case");
+        utilsLibrary.addTextToReport("Negative Booking Test Case");
     }
 }
