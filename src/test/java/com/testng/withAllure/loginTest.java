@@ -7,6 +7,9 @@ public class loginTest {
     @Test(priority = 1,description="Valid Login Scenario with wrong username and password.")
     public void positiveLoginTestCase(){
         utilsLibrary.addTextToReport("From Positive Login Testing...");
+        browserLibrary.openChromeBrowser();
+        browserLibrary.saveScreenshot();
+
     }
 
     @Test(priority = 2,description="Invalid Login Scenario with wrong username and password.")
