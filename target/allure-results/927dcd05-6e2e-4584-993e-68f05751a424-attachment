@@ -1,0 +1,13 @@
+Response Headers 
+Date=Sun, 01 Jul 2018 08:26:00 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Set-Cookie=__cfduid=d6d480a2e9ff7525f5d9e0f09d87a57e41530433559; expires=Mon, 01-Jul-19 08:25:59 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By=Express
+Access-Control-Allow-Origin=*
+ETag=W/"1bb-D+c3sZ5g5u/nmLPQRl1uVo2heAo"
+Expect-CT=max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server=cloudflare
+CF-RAY=43377c35edeb9ad0-FRA
+Content-Encoding=gzip
