@@ -34,6 +34,18 @@
       <version>2.6.0</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>3.1.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-java-commons</artifactId>
+      <version>RELEASE</version>
+    </dependency>
   </dependencies>
 
   <!--<build>-->
